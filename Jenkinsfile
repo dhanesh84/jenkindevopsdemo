@@ -4,7 +4,7 @@
 				environment{
 				dockerHome = tool 'mydocker'
 			        mevenHome = tool 'mymaven'
-			        PATH = '$dockerHome/bin:$mevenHome/bin:$PATH'		
+			        PATH = "$dockerHome/bin:$mevenHome/bin:$PATH"	
 				}
 				stages{
 				stage('Build') {
